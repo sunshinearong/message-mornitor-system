@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # COMP1040 Assignment 3
 Semester 2, 2016
 
@@ -238,3 +239,7 @@ code comments or a `NOTES.md` file) as to the nature of that help.
 
 
 
+=======
+# message-mornitor-system
+simulate agent send messge status
+>>>>>>> bb47b322cf5389cccc172749e91b6f44dd2b407f
