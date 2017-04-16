@@ -1,12 +1,4 @@
-#!/usr/bin/env python3
-# COMP1040: The Craft of Computing
-#
-# Simulates and visualises messages moving through a social network using
-# the Engine and Agent classes. You can change the `social_network_structure`
-# variable to choose between different social networks.
-#
-# ONLY MODIFY CODE IN THIS FILE FOR THE LAST TASK OF THE ASSIGNMENT.
-#
+
 
 import numpy as np
 import random
@@ -18,11 +10,7 @@ from constants import *
 import agent
 import engine
 
-# --- graph selection -------------------------------------------------------
 
-# TODO: Change this variable to select a different social network structure
-# to simulate. Can be an integer in the range 0 to 5. A value of zero (or
-# any value outside of this range) will choose a random structure.
 
 social_network_structure = 1
 
@@ -101,10 +89,6 @@ def animate_events(fnum, e, positions):
         else:
             plt.axis('off')
             plt.text(0.5, 0.5, "waiting for 2 epochs...", horizontalalignment='center', fontsize=12)
-
-    # TODO: Implement code here for the final task of the assignemnt. You may
-    # want to modify the subplot calls to produce an extra set of axes and may
-    # also need to modify code in the Engine class. This is a challenging task.
     # process the next event
     plt.subplot(1,4,4)  #plot message longity in the fourth subplot
     plt.cla()
