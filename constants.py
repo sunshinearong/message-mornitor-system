@@ -1,8 +1,4 @@
-# COMP1040: The Craft of Computing
-#
-# This file defines enumerated types and constants that are used throughout the simulation. You
-# may add additional constants to this file.
-#
+
 
 from enum import IntEnum
 
