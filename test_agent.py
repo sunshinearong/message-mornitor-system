@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-# COMP1040: The Craft of Computing
-#
-# Test suite for agent.py
-#
-# These test can be run by right-clicking on the `test_agent.py` file in the
-# Project view in PyCharm and choosing "Run Unittests in test_agent".
-# Individual tests can also be run by selecting then right clicking on a test
-# name in this file (e.g., `test_get_personality`) and selecting "Run".
-#
-# NOTE: You should make sure all these tests here are passing before running
-#       the code in `simulation.py`.
 
 import unittest
 from constants import *
